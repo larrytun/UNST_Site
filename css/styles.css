@@ -454,6 +454,10 @@ body {
 }
 
 @media only screen and (max-width: 590px) {
+  .page_content h1 {
+    font-size: 30px;
+    text-align: center;
+  }
   .button_01 {
     font-size: 21px;
     width: 218px;
@@ -550,5 +554,17 @@ body {
 
   .text {
     min-height: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .page_content h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .button_01 {
+    font-size: 18px;
+    height: 52px;
+    margin-top: 18px;
   }
 }
