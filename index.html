@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Deceptive Patterns in User Interfaces</title>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="page_content">
+    <div class="slide_01">
+      <h1>Deceptive Patterns in User Interfaces</h1>
+      <h2>An interactive experience to learn about deceptive patterns and become a well-informed digital citizen.</h2>
+      <button id="button01" class="button_01">START</button>
+    </div>
+    <div class="slide_02 hidden">
+      <h1 class="left_heading">User Interface (UI)</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>User interfaces (UI) connect users with digital experiences and products, enabling interaction with websites, apps, and software. UI combines text, images, and buttons for a visually engaging experience that caters to human needs.<br><br>Three primary attributes define user interfaces: they serve users by understanding their needs, provide intuitive experiences through consistent and easy-to-navigate designs, and enable simple task completion. Well-designed UI shapes digital interactions, contributing to positive user experiences.</p>
+        </div>
+        <div class="image_panel image_01"></div>
+      </div>
+      <button id="button02" class="button_01">NEXT</button>
+    </div>
+    <div class="slide_03 hidden">
+      <h1 class="left_heading">DECEPTIVE PATTERNS</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>Deceptive patterns, also known as dark patterns, are manipulative design elements in user interfaces that trick users into performing unintended actions.<br><br>They exist primarily to benefit businesses by increasing revenue, user engagement, or data collection, often at the expense of users' interests. These patterns are considered unethical because they exploit human psychology and take advantage of users' trust, leading to negative experiences and potentially negative consequences for users who fall victim to these manipulative designs.</p>
+        </div>
+        <div class="image_panel image_02"></div>
+      </div>
+      <button id="button03" class="button_01">EXAMPLES</button>
+    </div>
+    <div class="slide_04 hidden">
+      <h1 class="left_heading">Misdirection</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>Misdirection is a technique in deceptive patterns that uses elements and confusing layouts to distract users from important information or actions.<br><br>Examples of misdirection include ads designed as content, loud elements that distract attention from important actions or choices, and hard to find account settings. By taking advantage of users' trust and cognitive biases, misdirection can lead to negative experiences and potential problems for those who fall for these manipulative designs.</p>
+        </div>
+        <div class="image_panel image_03"></div>
+      </div>
+      <button id="button04" class="button_01">NEXT</button>
+    </div>
+    <div class="slide_05 hidden">
+      <h1 class="left_heading">Forced Continuity</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>Forced Continuity is a tactic in deceptive patterns that involves enrolling users in automatic renewals or subscriptions, often without explicit consent.<br><br>Examples of forced continuity include free trials that automatically convert to paid subscriptions, unclear cancellation processes, and hidden renewal fees. Forced continuity takes advantage of users' trust and inattention, resulting in unexpected charges and frustration for users.</p>
+        </div>
+        <div class="image_panel image_04"></div>
+      </div>
+      <button id="button05" class="button_01">NEXT</button>
+    </div>
+    <div class="slide_06 hidden">
+      <h1 class="left_heading">Hidden Costs</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>Hidden Cost is a strategy in deceptive patterns where additional fees or charges are concealed from users until the final stages of a transaction.<br><br>Examples of hidden costs include extra service charges, taxes, or shipping fees that only appear at the end of the checkout process. By taking advantage of users' trust and the likelihood that they won't give up on the transaction, hidden costs result in higher expenses and unforeseen charges for users.</p>
+        </div>
+        <div class="image_panel image_05"></div>
+      </div>
+      <button id="button06" class="button_01">QUIZ</button>
+    </div>
+    <div class="slide_07 hidden">
+      <h1>PICK THE DECEPTIVE PATTERN</h1>
+      <h2>Think you can spot the deceptive pattern? Test your knowledge with this interactive quiz.</h2>
+      <button id="button07" class="button_01">BEGIN</button>
+    </div>
+    <div class="slide_08 hidden">
+      <h1 class="left_heading">pick the deceptive pattern</h1>
+      <div class="info_panel panel_02">
+        <div id="left01" class="left_option left_01">
+          <div class="popup popup_01 hidden">
+            <div class="text">
+              <h3>Correct!</h3>
+              <p>Audible promises users a free audiobook using a prominent button that says "Click to Try Audible Free." The mention of auto-renewal is small and appears less significant, making it easy for users to overlook this critical detail.</p>
+            </div>
+          </div>
+        </div>
+        <div id="right01" class="right_option right_01">
+          <div class="popup popup_02 hidden">
+            <div class="text">
+              <h3>Try Again!</h3>
+              <p>In this example, Spotify clearly outlines the details of their free and paid plans. The mention of the free trial is secondary to the regular plan cost, clearly communicating the pricing to users and avoiding any confusion or deception.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button disabled id="button08" class="button_01">NEXT</button>
+    </div>
+    <div class="slide_09 hidden">
+      <h1 class="left_heading">pick the deceptive pattern</h1>
+      <div class="info_panel panel_02">
+        <div id="left02" class="left_option left_02">
+          <div class="popup popup_03 hidden">
+            <div class="text">
+              <h3>Try Again!</h3>
+              <p>In this example, the user is automatically logged off. This feature prioritizes user security and doesn't attempt to retain users unethically, ensuring a safe and trustworthy experience.</p>
+            </div>
+          </div>
+        </div>
+        <div id="right02" class="right_option right_02">
+          <div class="popup popup_04 hidden">
+            <div class="text">
+              <h3>Correct!</h3>
+              <p>Here, the button to remain in the app is prominent and attention-grabbing. This creates confusion for users and keeps them within the app. As a result, companies prolong user exposure, potentially increasing sales, advertising views, and data collection.</p>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+      <button disabled id="button09" class="button_01">Conclusion</button>
+    </div>
+    <div class="slide_10 hidden">
+      <h1 class="left_heading">Conclusion</h1>
+      <div class="info_panel">
+        <div class="text_panel">
+          <p>In conclusion, deceptive patterns can manipulate users into performing unintended actions, often benefiting businesses at the expense of the user experience.<br><br>By understanding common deceptive  patterns like misdirection, forced continuity, and hidden costs, you can become a smarter digital citizen. Remember to remain vigilant and think critically when interacting with digital products, advocating for ethical user-friendly design that prioritizes the needs and preferences of users like you.</p>
+        </div>
+        <div class="image_panel image_04"></div>
+      </div>
+      <button id="button10" class="button_01 one">SHARE</button>
+      <button id="button11" class="button_01 two">RESTART</button>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
