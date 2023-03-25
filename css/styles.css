@@ -225,7 +225,7 @@ body {
 
 .image_panel.image_05 {
   background-image: url("../img/Cost_01.PNG");
-  background-position: center;
+  background-position: left;
   background-size: cover;
 }
 
@@ -398,9 +398,16 @@ body {
   }
 
   .right_option, .left_option {
-    height: 400px;
+    height: 380px;
   }
 
+  .text_panel {
+    min-height: 400px;
+  }
+
+  .image_panel {
+    min-height: 400px;
+  }
 
 }
 
@@ -422,13 +429,127 @@ body {
     height: auto;
   }
 
+  .text {
+    padding: 25px;
+  }
+
+  .text h3 {
+    font-size: 18px;
+  }
+
+  .text p {
+    font-size: 13px;
+    line-height: 129%;
+    margin-top: 8px;
+  }
+
   .button_01 {
     font-size: 21px;
     width: 250px;
     height: 55px;
   }
 
-  .slide_01, .slide_02, .slide_03, .slide_04, .slide_05, .slide_06, .slide_07, .slide_08, .slide_09, .slide_10 {
-    margin-top: 120px;
+  .right_option, .left_option {
+    height: 280px;
   }
+
+  .text_panel {
+    min-height: 340px;
+  }
+
+  .image_panel {
+    min-height: 340px;
+  }
+}
+
+
+@media only screen and (max-width: 590px) {
+
+  .button_01 {
+    font-size: 21px;
+    width: 218px;
+    height: 55px;
+    margin-top: 24px;
+  }
+
+  .slide_02 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_03 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_04 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_05 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_06 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_08 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_09 .button_01 {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_10 .one {
+    margin-left: calc(50% - 109px);
+  }
+
+  .info_panel {
+    flex-wrap: wrap-reverse;
+    margin-top: 17px;
+  }
+
+  .text_panel {
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+    border-right: 3px solid #54BAF5;
+    border-top: 0;
+    min-height: 280px;
+    padding: 10px 20px;
+  }
+
+  .image_panel {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    min-height: 280px;
+  }
+
+  .slide_01, .slide_07 {
+    margin-top: 90px;
+  }
+
+  .slide_02, .slide_03, .slide_04, .slide_05, .slide_06, .slide_08, .slide_09, .slide_10 {
+    margin-top: 65px;
+  }
+
+  .right_option, .left_option {
+    height: 250px;
+    width: 100%;
+    margin: 0
+  }
+
+  .right_option, .left_option {
+    height: 250px;
+    width: 100%;
+    margin: 0
+  }
+
+  .right_option {
+    margin-bottom: 8px;
+  }
+
+  .left_option {
+    margin-top: 8px;
+  }
+
 }
