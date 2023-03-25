@@ -200,13 +200,13 @@ body {
 }
 
 .image_panel.image_01 {
-  background-image: url("../img/UI_01.png");
+  background-image: url("../img/UI_01.PNG");
   background-position: center;
   background-size: cover;
 }
 
 .image_panel.image_02 {
-  background-image: url("../img/mis_01.png");
+  background-image: url("../img/mis_01.PNG");
   background-position: center;
   background-size: cover;
 }
@@ -224,7 +224,7 @@ body {
 }
 
 .image_panel.image_05 {
-  background-image: url("../img/Cost_01.png");
+  background-image: url("../img/Cost_01.PNG");
   background-position: center;
   background-size: cover;
 }
