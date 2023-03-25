@@ -250,7 +250,7 @@ body {
 }
 
 .slide_02, .slide_03, .slide_04, .slide_05, .slide_06, .slide_07, .slide_08, .slide_09, .slide_10 {
-  margin-top: 120px;
+  margin-top: 100px;
   opacity: 1;
   display: block;
 }
@@ -288,13 +288,13 @@ body {
   margin-left: calc(100% - 250px);
 }
 
-.slide_10 .one {
+/* .slide_10 .one {
   margin-left: calc(100% - 530px);
   margin-right: 13px;
-}
+} */
 
 .slide_10 .two {
-  margin-left: 13px;
+  margin-left: calc(100% - 250px);
 }
 
 .button_01:disabled {
@@ -501,6 +501,10 @@ body {
   }
 
   .slide_10 .one {
+    margin-left: calc(50% - 109px);
+  }
+
+  .slide_10 .two {
     margin-left: calc(50% - 109px);
   }
 
