@@ -229,6 +229,13 @@ body {
   background-size: cover;
 }
 
+.image_panel.image_06 {
+  background-image: url("../img/conclusion.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
 .slide_01, .slide_07 {
   position: static;
   text-align: center;
